@@ -1,8 +1,8 @@
 {
-    "name": "PWA-Cookbook-01",
-    "short_name": "CookBook",
-    "description": "Demo aplikacija na predmetu Napredni razvoj za web",
-    "display": "fullscreen",
+    "name": "nrppzw-pwa",
+    "short_name": "nrppzw-pwa",
+    "description": "Progresivna web aplikacija",
+    "display": "standalone",
     "theme_color": "red",
     "background_color": "#DDD",
     "start_url": "/index.html",
