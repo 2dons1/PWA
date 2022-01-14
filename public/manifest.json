@@ -3,7 +3,7 @@
     "short_name": "nrppzw-pwa",
     "description": "Progresivna web aplikacija",
     "display": "standalone",
-    "theme_color": "red",
+    "theme_color": "#006B86",
     "background_color": "#DDD",
     "start_url": "/index.html",
     "scope": ".",
