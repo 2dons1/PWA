@@ -8,6 +8,7 @@ body {
 div.header {
   height: 10vh;
   text-align: center;
+  align-items: center;
 }
 div.logo-wrapper {
   display: flex;
@@ -50,4 +51,18 @@ div.logo-wrapper img {
 }
 .active {
   background-color: #006B86;
+}
+
+.country{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  background-color: #006B86; /* Green */
+  color: white;
+  padding: 15px 32px;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
