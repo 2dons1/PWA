@@ -18,3 +18,36 @@ div.logo-wrapper img {
   max-width: 75%;
   max-height: 800px;
 }
+
+/* NAVBAR */
+.navbar ul {
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: #222222
+}
+.navbar{
+    margin-bottom: 15px;
+}
+.active {
+  background-color: #006B86;
+}
