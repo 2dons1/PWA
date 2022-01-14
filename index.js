@@ -6,8 +6,8 @@ express()
     .get('/', function(req, res) {
         res.sendFile(path.join(__dirname, '/index.html'));
     })
-    .use(express.static('css'))
-    .use(express.static('img'))
-    .use(express.static('js'))
-    .use(express.static('pages'))
+    .use(express.static(path.join(__dirname, 'css')))
+    .use(express.static(path.join(__dirname, 'img')))
+    .use(express.static(path.join(__dirname, 'jss')))
+    .use(express.static(path.join(__dirname, 'pages')))
     .listen(PORT, () => console.log(`Listening on ${ PORT }`))
