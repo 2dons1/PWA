@@ -1,5 +1,5 @@
 // App Shell = core design of a website..
-const version = 'v4';
+const version = 'v2';
 const appShell = 'site-static' + "-" + version;
 const dynamicCahce = 'site-dynamic' + "-" + version;
 
